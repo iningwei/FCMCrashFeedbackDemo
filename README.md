@@ -1,10 +1,16 @@
 ## Basic Messages
-**Unity Version:**2020.3.0f1
-**Firebase SDK Version:**firebase_unity_sdk_8.3.0（dotnet4）
-**Used SDK Package:**FirebaseAnalytics、FirebaseMessaging
-**Unity Configuration-Scripting Backend:**IL2CPP
-**Unity Configuration-Api Compatibility Level:**.NET 4.x
-**Test mobile device:**Google Pixel 3、 Redmi 9A
+
+- Unity Version: 2020.3.0f1
+
+- Firebase SDK Version: firebase_unity_sdk_8.3.0（dotnet4）
+
+- Used SDK Package: FirebaseAnalytics、FirebaseMessaging
+
+- Unity Configuration-Scripting Backend: IL2CPP
+
+- Unity Configuration-Api Compatibility Level: .NET 4.x
+
+- Test mobile device: Google Pixel 3、 Redmi 9A
 
 ## About the demo project
 1.Main codes is in Assets/_scripts/FirebaseSdkManager.cs
@@ -14,7 +20,9 @@
 
 ## Crash Description
 1.After install the apk,you shutdown your internet conection,then lauch the app it will crash
+
 2.Crash logs:
+```c
 FATAL EXCEPTION: UnityMain
     Process: com.tj.sgame, PID: 30789
     java.lang.Error: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -49,3 +57,4 @@ FATAL EXCEPTION: UnityMain
 		  
 		  at libc.pthread_mutex_lock(pthread_mutex_lock:0)
           at libFirebaseCppApp-8_3_0.firebase::Mutex::Acquire()(Acquire:4)
+```
