@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "490761794073",
+    "project_id": "sgame-cbc31",
+    "storage_bucket": "sgame-cbc31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490761794073:android:66709433ffc082d0ba7088",
+        "android_client_info": {
+          "package_name": "com.tj.sgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490761794073-b3prf3ctt8q4igtckfbel6qi6o0a5ujf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tj.sgame",
+            "certificate_hash": "19a75a6571c70b347578991ee209bb9a75a439dc"
+          }
+        },
+        {
+          "client_id": "490761794073-rib6rvad7o7uelcqdretbmligjrf02ej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFIk3RjrmqnuZmC9amhiyW-NQAtfdOi1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490761794073-rib6rvad7o7uelcqdretbmligjrf02ej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
