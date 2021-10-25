@@ -14,7 +14,9 @@
 
 ## About the demo project
 1.Main codes is in Assets/_scripts/FirebaseSdkManager.cs
+
 2.I have already upload a demo apk called **Demo.apk**
+
 3.**No self defined Andmanifest.xml, no self defined unity activity.**
 
 
